@@ -21,19 +21,19 @@ if you want them to say something else you will have to rename them
 
 [Back to Class List](#Classes)<br/>
 
-###LDAPuser
+###Term
 
 [Back to Class List](#Classes)<br/>
 
-###LDAPuser
+###StudentObj
 
 [Back to Class List](#Classes)<br/>
 
-###LDAPuser
+###College
 
 [Back to Class List](#Classes)<br/>
 
-###LDAPuser
+###WebService
 
 [Back to Class List](#Classes)<br/>
 
