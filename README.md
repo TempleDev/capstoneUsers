@@ -78,13 +78,13 @@ This is a simple class to give you organization for objects holding just the col
 <li>GetTermByDate(string date)</li>
 <p>this method takes in a date (string) and returns a Term object associated with it</p>
 <li>getAllColleges()</li>
-<p>returns an array of all colleges as College Objects objects</p>
-<li>getLDAPEntryByTUID()</li>
-<p>this method takes in a Temple users ID (91xxxxxxx) and returns an LDAPuser object with all known properties</p>
-<li>getLDAPEntryByTUID()</li>
-<p>this method takes in a Temple users ID (91xxxxxxx) and returns an LDAPuser object with all known properties</p>
-<li>getLDAPEntryByTUID()</li>
-<p>this method takes in a Temple users ID (91xxxxxxx) and returns an LDAPuser object with all known properties</p>
+<p>returns an array of all colleges as College Objects</p>
+<li>getCollegeNameByCollegeCode(string CollegeCode)</li>
+<p>this method takes in a CollegeCode and returns a string of CollegeName</p>
+<li>getStudentInfo(string TUID)</li>
+<p>this method takes in a Temple users ID (91xxxxxxx) and returns a student object with all known properties</p>
+<li>getFacultyTitleByTUID(string TUID)</li>
+<p>this method takes in a Temple users ID (91xxxxxxx) and returns a string of the title of that faculty member</p>
 </ul>
 [Back to Class List](#classes)<br/>
 
