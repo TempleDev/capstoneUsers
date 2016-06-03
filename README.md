@@ -3,7 +3,7 @@
 <p>This project contains a .cs file with many helpful classes and methods in order to communicate with Temple's Web Services</p>
 Contact the Authors @ [ElGrandeQueso@temple.edu](http://tumail.temple.edu)</br>
 or<br/>
-@ [gandalf.the.grey@temple.edu](http://tumail.temple.edu)</br>
+@ [LiquidPlatypus@temple.edu](http://tumail.temple.edu)</br>
 ```
 Missing from this project (for obvious security reasons) are:
 1)Links for web service calls that you will create 
