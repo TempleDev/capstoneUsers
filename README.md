@@ -65,16 +65,26 @@ This is a simple class to give you organization for objects holding just the col
 ###WebService
 <p>This static Class holds many helpful functions that are already built to interact with the web services provided to you.  below are a list of methods that can be called</p>
 <ul>
-<li>
-```
-getLDAPEntryByTUID()
-```
-</li>
-<li>
-```
-getLDAPEntryByTUID()
-```
-</li>
+<li>getLDAPEntryByTUID(string templeID)</li>
+<p>this method takes in a Temple users ID (91xxxxxxx) and returns an LDAPuser object with all known properties</p>
+<li>getLDAPEntryByAccessnet(string accessnet)</li>
+<p>this method takes in a Temple users AccessNet and returns an LDAPuser object with all known properties</p>
+<li>getLDAPEntryByEmailAlias(string email)</li>
+<p>this method takes in an email address and returns the LDAPuser object with all known properties</p>
+<li>getCurrentTerm()</li>
+<p>this method returns the current term that we are in</p>
+<li>getTermByTermCode(string termCode)</li>
+<p>this method takes in a termCode and returns a Term object associated with it</p>
+<li>GetTermByDate(string date)</li>
+<p>this method takes in a date (string) and returns a Term object associated with it</p>
+<li>getAllColleges()</li>
+<p>returns an array of all colleges as [College Objects](#college) objects</p>
+<li>getLDAPEntryByTUID()</li>
+<p>this method takes in a Temple users ID (91xxxxxxx) and returns an LDAPuser object with all known properties</p>
+<li>getLDAPEntryByTUID()</li>
+<p>this method takes in a Temple users ID (91xxxxxxx) and returns an LDAPuser object with all known properties</p>
+<li>getLDAPEntryByTUID()</li>
+<p>this method takes in a Temple users ID (91xxxxxxx) and returns an LDAPuser object with all known properties</p>
 </ul>
 [Back to Class List](#classes)<br/>
 
