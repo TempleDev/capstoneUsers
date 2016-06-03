@@ -16,7 +16,10 @@ if you want them to say something else you will have to rename them
 [WebService](#webservice)<br/>
 
 ###LDAPuser
-
+<h3>Parameters</h3>
+<ul>
+<li>a</li>
+</ul>
 
 
 [Back to Class List](#classes)<br/>
