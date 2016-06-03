@@ -4,7 +4,7 @@
 ```
 Missing from this project (for obvious security reasons) are:
 1)Links for web service calls that you will create 
-###***The Names for these web services are hardcoded in the TempleUser.cs page if you want them to say something else you will have to rename them***<br/>
+NOTE:The Names for these web services are hardcoded in the TempleUser.cs page if you want them to say something else you will have to rename them
 2)WSInfo class where you will store your username and password
 ```
 ##Classes
