@@ -59,14 +59,14 @@ if you want them to say something else you will have to rename them
 [Back to Class List](#classes)<br/>
 
 ###College
-This is a simple class to give you organization for objects holding just the collegeName and collegeCode
+This is a simple class to give you organization for objects holding just the collegeName and collegeCode <br/>
 [Back to Class List](#classes)<br/>
 
 ###WebService
 <p>This static Class holds many helpful functions that are already built to interact with the web services provided to you.  below are a list of methods that can be called</p>
 <ul>
 <li>
-```C#
+```
 getLDAPEntryByTUID()
 ```
 </li>
