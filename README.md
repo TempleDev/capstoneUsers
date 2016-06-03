@@ -9,31 +9,31 @@ if you want them to say something else you will have to rename them
 2)WSInfo class where you will store your username and password
 ```
 ##Classes
-[LDAPuser](#LDAPuser)<br/>
-[Term](#Term)<br/>
-[StudentObj](#StudentObj)<br/>
-[College](#College)<br/>
-[WebService](#WebService)<br/>
+[LDAPuser](#ldapuser)<br/>
+[Term](#term)<br/>
+[StudentObj](#studentobj)<br/>
+[College](#college)<br/>
+[WebService](#webservice)<br/>
 
 ###LDAPuser
 
 
 
-[Back to Class List](#Classes)<br/>
+[Back to Class List](#classes)<br/>
 
 ###Term
 
-[Back to Class List](#Classes)<br/>
+[Back to Class List](#classes)<br/>
 
 ###StudentObj
 
-[Back to Class List](#Classes)<br/>
+[Back to Class List](#classes)<br/>
 
 ###College
 
-[Back to Class List](#Classes)<br/>
+[Back to Class List](#classes)<br/>
 
 ###WebService
 
-[Back to Class List](#Classes)<br/>
+[Back to Class List](#classes)<br/>
 
