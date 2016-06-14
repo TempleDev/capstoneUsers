@@ -25,7 +25,8 @@ using System.Web;
 namespace TempleUser
 {
     /// <summary>
-    /// Class to create an LDAP User
+    /// Class to create an LDAP User.  Also, due to the lack of Faculty Web service calls, this will be the primary object for
+    /// Faculty Login
     /// </summary>
     public class LDAPuser
     {
@@ -110,9 +111,9 @@ namespace TempleUser
     //----------------------------------------------------------------------------------------------------
     // Example of Use
     //
-    //      TempleLDAPEntry result = WebService.getLDAPEntryByAccessnet("tue71468");
+    //      LDAPuser result = WebService.getLDAPEntryByAccessnet("tue71468");
     //     or
-    //      TempleLDAPEntry result = WebService.getLDAPEntryByTUID("915006167");
+    //      LDAPuser result = WebService.getLDAPEntryByTUID("915006167");
     //
     // The 'result' variable will contain all info listed in the Web Services document on BB
     //----------------------------------------------------------------------------------------------------
