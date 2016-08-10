@@ -144,7 +144,7 @@ namespace TempleUser
                 WS_LDAPSearch.TempleLDAPEntry resultEntry = results[0];
 
                 // Check if request was successful
-                if (resultEntry.result == null) // Success
+                if (resultEntry.error == null) // Success
                 {
                     // Create our TempleLDAPEntry object to be returned
                     LDAPuser personLDAPEntry = new LDAPuser();
@@ -179,7 +179,7 @@ namespace TempleUser
                 WS_LDAPSearch.TempleLDAPEntry resultEntry = results[0];
 
                 // Check if request was successful
-                if (resultEntry.result == null) // Success
+                if (resultEntry.error == null) // Success
                 {
                     // Create our TempleLDAPEntry object to be returned
                     LDAPuser personLDAPEntry = new LDAPuser();
@@ -218,7 +218,7 @@ namespace TempleUser
                 WS_LDAPSearch.TempleLDAPEntry resultEntry = results[0];
 
                 // Check if request was successful
-                if (resultEntry.result == null) // Success
+                if (resultEntry.error == null) // Success
                 {
                     // Create our TempleLDAPEntry object to be returned
                     LDAPuser personLDAPEntry = new LDAPuser();
@@ -395,7 +395,7 @@ namespace TempleUser
             {
                 //////// Get LDAP Info
                 StudentObj student = new StudentObj();
-                TempleLDAPEntry entry = getLDAPEntryByTUID(TUID);
+                LDAPuser entry = getLDAPEntryByTUID(TUID);
 
                 if (entry != null)
                 {
@@ -460,7 +460,7 @@ namespace TempleUser
                 WS_LDAPSearch.TempleLDAPEntry resultEntry = results[0];
 
                 // Check if request was successful
-                if (resultEntry.result == null) // Success
+                if (resultEntry.error == null) // Success
                 {
                     string[] affiliations = resultEntry.eduPersonAffiliation.Split(',');
                     foreach (string s in affiliations)
