@@ -21,13 +21,13 @@ if you want them to say something else you will have to rename them
 ###LDAPuser
 <p>This Class is used as the primary object for users in your system and holds the following properties</p>
 <ul>
-<li>string templeEduID (accessnet)</li>
-<li>string uID (91XXXXXXX)</li>
+<li>string templeEduID (91XXXXXXX)</li>
+<li>string uID (accessnet)</li>
 <li>string cn (common name, first name)</li>
 <li>string givenName (full Name)</li>
 <li>string sn (Last Name)</li>
-<li>string ediPersonAffiliation (unknown)</li>
-<li>string eduPersonPrimaryAffiliation (unkown)</li>
+<li>string ediPersonAffiliation</li>
+<li>string eduPersonPrimaryAffiliation</li>
 <li>string mail (email)</li>
 <li>string title (Temple Title)</li>
 </ul>
