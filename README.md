@@ -23,15 +23,14 @@ if you want them to say something else you will have to rename them
 <ul>
 <li>string templeEduID (91XXXXXXX)</li>
 <li>string uID (accessnet)</li>
-<li>string cn (common name, first name)</li>
-<li>string givenName (full Name)</li>
+<li>string cn (Full name)</li>
+<li>string givenName (First Name)</li>
 <li>string sn (Last Name)</li>
-<li>string ediPersonAffiliation</li>
-<li>string eduPersonPrimaryAffiliation</li>
+<li>string ediPersonAffiliation (list of affiliations - employee,staff,student,member,faculty)</li>
+<li>string eduPersonPrimaryAffiliation (single primary affiliation)</li>
 <li>string mail (email)</li>
 <li>string title (Temple Title)</li>
 </ul>
-
 
 [Back to Class List](#classes)<br/>
 
