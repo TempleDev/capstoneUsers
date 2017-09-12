@@ -1,9 +1,9 @@
 # capstoneUsers
 
 <p>This project contains a .cs file with many helpful classes and methods in order to communicate with Temple's Web Services</p>
-Contact the Authors @ [ElGrandeQueso@temple.edu](http://tumail.temple.edu)</br>
-or<br/>
-@ [LiquidPlatypus@temple.edu](http://tumail.temple.edu)</br>
+Contact the Authors @[ElGrandeQueso@temple.edu](http://tumail.temple.edu) </br>
+or <br/>
+@[LiquidPlatypus@temple.edu](http://tumail.temple.edu) </br>
 ```
 Missing from this project (for obvious security reasons) are:
 1)Links for web service calls that you will create 
@@ -11,14 +11,14 @@ NOTE:The Names for these web services are hardcoded in the TempleUser.cs page
 if you want them to say something else you will have to rename them
 2)WSInfo class where you will store your username and password
 ```
-##Classes
+## Classes
 [LDAPuser](#ldapuser)<br/>
 [Term](#term)<br/>
 [StudentObj](#studentobj)<br/>
 [College](#college)<br/>
 [WebService](#webservice)<br/>
 
-###LDAPuser
+### LDAPuser
 <p>This Class is used as the primary object for users in your system and holds the following properties</p>
 <ul>
 <li>string templeEduID (91XXXXXXX)</li>
@@ -34,7 +34,7 @@ if you want them to say something else you will have to rename them
 
 [Back to Class List](#classes)<br/>
 
-###Term
+### Term
 <p>This Class is the object to get Term information holds the following properties</p>
 <ul>
 <li>string termCode (Temple Given TermCode)</li>
@@ -46,7 +46,7 @@ if you want them to say something else you will have to rename them
 </ul>
 [Back to Class List](#classes)<br/>
 
-###StudentObj
+### StudentObj
 <p>This Class is used to create a Student object with more "Student" detail than LDAPuser</p>
 <ul>
 <li>string firstName (duh)</li>
@@ -60,11 +60,11 @@ if you want them to say something else you will have to rename them
 </ul>
 [Back to Class List](#classes)<br/>
 
-###College
+### College
 This is a simple class to give you organization for objects holding just the collegeName and collegeCode <br/>
 [Back to Class List](#classes)<br/>
 
-###WebService
+### WebService
 <p>This static Class holds many helpful functions that are already built to interact with the web services provided to you.  below are a list of methods that can be called</p>
 <ul>
 <li>getLDAPEntryByTUID(string templeID)</li>
